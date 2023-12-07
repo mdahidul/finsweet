@@ -1,0 +1,1561 @@
+*{
+    padding: 0px ;
+    margin: 0px ;
+}
+
+body{
+    font-size: 14px ;
+    line-height: 1.7em ;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+a, a:hover{
+    text-decoration: none ;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Poppins', sans-serif;
+}
+
+.header{
+    width: 100% ;
+    padding: 10px 0px ;
+    background: #000 ;
+}
+.header .navbar-nav .nav-link.active{
+    font-size: 16px ;
+    color: #FFD050;
+    font-weight: 600 ;
+}
+.header .nav-link{
+    color: #fff;
+    font-size: 16px ;
+    font-weight: 600 ;
+    margin: 0px 0px 0px 20px ;
+    text-transform: capitalize;
+}
+.header .nav-link:hover{
+    color: #FFD050;
+ 
+}
+.header .btn-info{
+    width: 100%;
+    padding: 8px 25px ;
+    border-radius: 0px ;
+    background: #fff ;
+    border: 1px solid #fff ;
+    font-weight: 600 ;
+    margin: 0px 0px 0px 20px ;
+
+}
+.header .btn-info:hover{
+    background: transparent ;
+    color: #FFD050;
+    border: 1px solid #FFD050;
+    transition: 1s ;
+}
+.banner{
+    width: 100% ;
+    padding: 80px 0px;
+    background: url(../images/banner.png)center top no-repeat;
+    background-size: cover;
+    
+}
+.banner h4{
+    font-size: 16px  ;
+    color: #FBF6EA;
+    margin-top: 50px ;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 400 ;
+}
+.banner h4 span{
+    font-size: 16px ;
+    color: #fff;
+    font-weight: 700 ;
+}
+.banner h1{
+    font-size: 48px ;
+    color: #fff;
+    margin: 20px 0px ;
+}
+.banner p{
+    color: #fff;
+    margin: 20px 0px ;
+
+}
+.banner p span{
+    color: #FFD050;
+}
+.banner h5{
+    font-weight: 400 ;
+    font-size: 14px ;
+    color: #FBF6EA;
+    margin: 20px 0px ;
+    line-height: 1.7em ;
+}
+.banner .btn-info{
+    padding: 8px 30px ;
+    border-radius: 0px ;
+    background: #FFD050 ;
+    border: 1px solid #FFD050 ;
+    font-weight: 600 ;
+    color: #000;
+    margin: 15px 0px 0px 0px ;
+}
+.banner .btn-info:hover{
+    background: transparent ;
+    color: #FFD050;
+    border: 1px solid #FFD050;
+    transition: 1s ;
+}
+.feature{
+    width: 100% ;
+    padding: 80px 0px ;
+}
+.feature h1{
+    margin: 0px 0px 40px 0px ;
+    font-size: 30px ;
+    color: #000;
+    font-weight: 600 ;
+}
+.feature h5{
+    font-size: 14px  ;
+    margin: 0px 0px ;
+    font-weight: 500 ;
+    margin: 20px 0px ;
+    line-height: 1.7em ;
+}
+.feature h5 span{
+    color: #592EA9;
+    font-weight: 600 ;
+}
+.feature .btn-info{
+    padding: 8px 30px ;
+    border-radius: 0px ;
+    background: #FFD050 ;
+    border: 1px solid #FFD050 ;
+    font-weight: 600 ;
+    color: #000;
+    margin: 15px 0px 0px 0px ;
+}
+.feature .btn-info:hover{
+    background: transparent ;
+    color: #FFD050;
+    border: 1px solid #FFD050;
+    transition: 1s ;
+}
+.feature h4{
+    font-size: 18px ;
+    font-weight: 600 ;
+    line-height: 1.7em ;
+}
+.feature .feature-box{
+    margin: 0px 0px 40px 40px ;
+}
+.feature p{
+    font-size: 14px  ;
+    font-weight: 500 ;
+   
+}
+.feature p span{
+    color: #592EA9;
+    font-weight: 600 ;
+}
+.feature .feature-box:hover{
+    background: #FBF6EA ;
+}
+.feature .feature-box:focus{
+    background: #FBF6EA ;
+}
+.mission{
+    width: 100% ;
+    background: url(../images/mission.png)center top no-repeat ;
+    background-size: cover;
+    
+}
+.mission .inner-mission{
+    width: 100% ;
+    margin: 140px 0px ;
+}
+.mission .inner-mission h5{
+    font-size: 14px  ;
+    margin: 0px 0px ;
+    font-weight: 600 ;
+    letter-spacing: 3px ;
+}
+.mission .inner-mission h1{
+    line-height: 1.3em ;
+    font-size: 30px ;
+    color: #000;
+    font-weight: 600 ;
+    margin: 20px 0px ;
+}
+.mission .inner-mission p{
+    font-size: 14px  ;
+    font-weight: 500 ;
+}
+.mission .inner-mission .link{
+    font-size: 18px ;
+    text-transform: capitalize;
+    font-weight: 600 ;
+    color: #592EA9;
+    text-decoration: none ;
+}
+.category{
+    width: 100% ;
+    padding: 50px 0px ;
+}
+.category h1{
+    font-size: 30px ;
+    color: #000;
+    font-weight: 600 ;
+    margin: 0px 0px 50px 0px ;
+    text-align: center;
+}
+
+.category .inner-category{
+    width: 100% ;
+    border: 2px solid #FBF6EA ;
+    box-shadow: #FFD050;
+    padding: 20px  ;
+}
+.category .inner-category h4{
+    font-size: 22px ;
+    font-weight: 600 ;
+    margin: 10px 0px ;
+}
+.category .inner-category p{
+    font-size: 12px  ;
+    font-weight: 500 ;
+    line-height: 1.7em ;
+}
+.category .inner-category:hover{
+    background: #FFD050;
+    transition: 1s ;
+}
+.discover{
+    padding: 80px 0px ;
+}
+.discover .inner-discover{
+    margin: 0px 0px 0px 50px ;
+}
+.discover .inner-discover h5{
+    font-size: 16px  ;
+    font-weight: 600 ;
+    letter-spacing: 2px ;
+}
+.discover .inner-discover h1{
+    font-size: 30px ;
+    color: #000;
+    font-weight: 600 ;
+    line-height: 1.3em ;
+    margin: 20px 0px ;
+}
+.discover .inner-discover p{
+    font-size: 14px  ;
+    font-weight: 500 ;
+    line-height: 1.7em ;
+}
+.discover .inner-discover .btn-info{
+    padding: 8px 30px ;
+    border-radius: 0px ;
+    background: #FFD050 ;
+    border: 1px solid #FFD050 ;
+    font-weight: 600 ;
+    color: #000;
+    margin: 15px 0px 0px 0px ;
+}
+.discover .inner-discover .btn-info:hover{
+    background: transparent ;
+    color: #FFD050;
+    border: 1px solid #FFD050;
+    transition: 1s ;
+}
+.authors{
+    width: 100% ;
+    padding: 80px 0px ;
+
+}
+.authors h1{
+    text-align: center ;
+    line-height: 1.3em ;
+    font-size: 30px ;
+    color: #000;
+    font-weight: 600 ;
+    margin: 0px 0px 40px 0px ;
+}
+.authors .inner-authors{
+    background: #F4F4F4 ;
+    text-align: center ;
+    padding: 25px 0px  ;
+}
+.authors .inner-authors h4{
+    font-size: 20px ;
+    font-weight: 600 ;
+    margin: 10px 0px ;
+}
+.authors .inner-authors p{
+    font-size: 14px  ;
+    font-weight: 500 ;
+    line-height: 1.7em ;
+}
+.authors .inner-authors:hover{
+    background-color: #FBF6EA;
+    transition: 1s ;
+}
+.authors .inner-authors .fa{
+    margin: 0px 0px 0px 10px ;
+    font-size: 16px;
+}
+.authors .inner-authors .fa:hover{
+    color: #FFD050 ;
+}
+.list-logo{
+    width: 100% ;
+    padding: 10px 0px 70px 0px ;
+}
+.testimonial{
+    width: 100% ;
+    border: 1px solid black ;
+    background: #FBF6EA;
+}
+.testimonial h5{
+    margin: 50px 0px 0px 0px  ;
+    font-size: 14px  ;
+    font-weight: 600 ;
+    letter-spacing: 3px ;
+}
+.testimonial h1{
+    margin: 10px 0px;
+    font-size: 30px ;
+    color: #000;
+    font-weight: 600 ;
+    line-height: 1.3em ;
+}
+.testimonial p{
+    font-size: 14px  ;
+    font-weight: 500 ;
+    line-height: 1.7em ;
+}
+.testimonial h3{
+    font-weight: 600 ;
+    font-size: 18px ;
+    margin: 50px 0px 0px 0px ;
+    line-height: 1.7em ;
+}
+
+.testimonial .clint{
+    margin: 40px 0px ;
+    width: 100% ;
+    display: inline-flex;
+    padding: 0px;
+}
+.testimonial .clint li{
+    list-style: none ;
+    padding: 0px ;
+    margin: 0px ;
+}
+.testimonial .clint li h4{
+    font-weight: 600 ;
+    font-size: 20px ;
+    margin: 0px 0px 0px 20px ;
+
+}
+.testimonial .clint li h4 span{
+    font-size: 14px  ;
+    font-weight: 500 ;
+    color: #6D6E76;
+}
+.story{
+    width: 100% ;
+    padding: 80px 0px ;
+    text-align: center ;
+}
+.story h1{
+    font-size: 30px ;
+    color: #000;
+    font-weight: 600 ;
+    line-height: 1.3em ;
+}
+.story p{
+    font-size: 14px  ;
+    font-weight: 500 ;
+    line-height: 1.7em ;
+}
+.story .btn-info{
+    padding: 8px 30px ;
+    border-radius: 0px ;
+    background: #FFD050 ;
+    border: 1px solid #FFD050 ;
+    font-weight: 600 ;
+    color: #000;
+    margin: 15px 0px 0px 0px ;
+}
+.story .btn-info:hover{
+    background: transparent ;
+    color: #FFD050;
+    border: 1px solid #FFD050;
+    transition: 1s ;
+}
+
+.footer{
+    width: 100% ;
+    padding: 80px 0px ;
+    background: #000 ;
+}
+.footer .backround{
+    width: 100% ;   
+    background: #2E3040 ;
+    padding: 50px  ;
+    margin: 50px 0px ;
+}
+
+.footer .inner-subscribe h4{
+    color: #ffff;
+    font-size: 22px ;
+    font-weight: 500 ;
+    line-height: 1.7em ;
+}
+.footer ul{
+    display: block ;
+}
+.footer ul li{
+    list-style: none ;
+    display: block ;
+    display: inline-block ;
+}
+.footer ul li a{
+    text-decoration: none ;
+    font-size: 16px ;
+    line-height: 1.7em ;
+    color: #fff ;
+    margin: 0px 0px 0px 20px ;
+    font-weight: 600 ;
+    text-transform: uppercase ;
+}
+.footer ul li a:hover{
+    color: #FFD050;
+    transition: 1s ;
+}
+.footer .inner-subscribe .form-control{
+    background: transparent ;
+    border: 2px solid #6D6E76 ;
+    border-radius: 0px;
+    box-shadow: none;
+    color: #fff;
+    margin: 20px 0px 0px 0px ;
+}
+.footer .inner-subscribe .form-control::placeholder{
+    font-size: 14px ;
+    color: #6D6E76;
+    font-weight: 600 ;
+    text-transform: capitalize ;
+}
+.footer .inner-subscribe .btn-info{
+    padding: 7px 30px ;
+    border-radius: 0px ;
+    background: #FFD050 ;
+    border: 1px solid #FFD050 ;
+    font-weight: 600 ;
+    color: #000;
+    margin: 20px 0px 0px 0px ;
+}
+.footer .inner-subscribe .btn-info:hover{
+    background: transparent ;
+    color: #FFD050;
+    border: 1px solid #FFD050;
+    transition: 1s ;
+}
+.footer p{
+    font-size: 16px ;
+    color: #6D6E76;
+}
+.footer .inner-social{
+    text-align: right ;
+}
+.footer .inner-social .fa{
+    margin: 0px 0px 0px 20px ;
+    color: #6D6E76;
+}
+.footer .inner-social .fa:hover{
+    color: #FFD050;
+    transition: 1s ;
+}
+
+/* blog css start */
+.blog-banner{
+    width: 100% ;
+    padding: 100px 0px ;
+    background:#F4F0F8;
+   
+}
+.blog-banner h4{
+    font-size: 16px  ;
+    color: #000;
+    margin-top: 50px ;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 400 ;
+}
+.blog-banner h4 span{
+    font-size: 16px ;
+    color: #000;
+    font-weight: 700 ;
+}
+.blog-banner h1{
+    font-size: 30px ;
+    color: #000;
+    margin: 20px 0px ;
+}
+.blog-banner p{
+    color: #000;
+    margin: 20px 0px ;
+
+}
+.blog-banner p span{
+    color: #6D48B4;
+}
+.blog-banner h5{
+    font-weight: 400 ;
+    font-size: 14px ;
+    color: #000;
+    margin: 20px 0px ;
+    line-height: 1.7em ;
+}
+.blog-banner .btn-info{
+    padding: 8px 30px ;
+    border-radius: 0px ;
+    background: #FFD050 ;
+    border: 1px solid #FFD050 ;
+    font-weight: 600 ;
+    color: #000;
+    margin: 15px 0px 0px 0px ;
+}
+.blog-banner .btn-info:hover{
+    background: transparent ;
+    color: #FFD050;
+    border: 1px solid #FFD050;
+    transition: 1s ;
+}
+.post{
+    width: 100% ;
+    padding: 40px 0px ;
+}
+.post h1{
+    font-size: 30px  ;
+    margin: 0px 0px 30px 0px ;
+}
+.post .inner-post{
+    margin: 50px 0px ;
+}
+
+.post .inner-post h1{
+    padding: 10px 0px 30px 0px ;
+    font-size: 30px ;
+    font-weight: 500 ;
+}
+
+.post .inner-post p{
+    font-size: 14px ;
+    font-weight: 600;
+    letter-spacing: 2px ;
+    margin: 0px ;
+    padding: 0px ;
+    color: #592EA9;
+    
+}
+.post .inner-post h1{
+    font-size: 26px  ;
+    font-weight: 600 ;
+    color: #000;
+    padding: 0px ;
+    margin: 20px 0px ;
+}
+.post .inner-post h5{
+    font-size: 14px ;
+    font-weight: 500 ;
+    line-height: 1.7em ;
+}
+.img-fluid{
+    padding: 0px 0px 20px 0px;
+}
+
+/* blog css end */
+
+
+/* about css start */
+.authors .inner-authors {
+    background: #F4F4F4;
+    text-align: center;
+    padding: 30px 0px;
+    margin: 0px 0px 30px 0px ;
+}
+.about-banner{
+    width: 100% ;
+    padding: 80px 0px ;
+}
+.inner-about-banner{
+    padding: 40px ;
+    background: #ffff ;
+    position: absolute ;
+    z-index: 1 ;
+     
+}
+.inner-about-banner h5{
+    font-size: 16px ;
+    letter-spacing: 2px ;
+}
+.inner-about-banner h1{
+    font-size: 38px ;
+    font-weight: 600 ;
+}
+.blog-about{
+    width: 100%;
+    padding: 80px 0px ;
+    background: url(../images/a22.png) center bottom no-repeat ;
+    background-size: cover ;
+    position: relative ;
+}
+.inner-blog-about{
+    margin: 100px 0px 0px 0px ;
+    width: 100% ;
+    background: #FFD050 ;
+    padding: 30px ;
+}
+
+.inner-blog-about h1{
+    font-size: 38px ;
+    font-weight: 600 ;
+}
+.inner-blog-about p{
+    font-weight: 600 ;
+    font-size: 14px ;
+}
+.about-mission{
+    width: 100% ;
+    background: url(../images/mission.png) center top no-repeat;
+    background-size: cover ;
+    padding: 80px 0px ;
+}
+.about-mission h5{
+    font-size: 14px ;
+    letter-spacing: 1px ;
+    text-transform: uppercase ;
+    line-height: 1.7em ;
+}
+.about-mission h4{
+    font-size: 20px  ;
+    font-weight:  600 ;
+    line-height: 1.7em ;
+}
+.about-mission p{
+    font-size: 14px ;
+    line-height: 1.7em ;
+}
+.about-team{
+    width: 100% ;
+    padding: 80px 0px ;
+}
+.inner-about-team{
+    margin: 80px 0px 0px 0px ;
+}
+.about-team h1{
+    font-size: 26px ;
+    font-weight: 600 ;
+    line-height: 1.7em ;
+}
+.about-team h5{
+    font-size: 20px ;
+    line-height: 1.3em ;
+}
+.about-team p{
+    font-size: 14px ;
+    line-height: 1.7em ;
+}
+.about-blog h1{
+    font-size: 26px ;
+    font-weight: 600 ;
+    line-height: 1.7em ;
+}
+.about-blog h5{
+    font-size: 20px ;
+    line-height: 1.3em ;
+}
+.about-blog p{
+    font-size: 14px ;
+    line-height: 1.7em ;
+}
+
+/* about css end */
+
+/* catergory section css start */
+.category-banner{
+    width: 100% ;
+    padding: 60px 0px ;
+    background: url(../images/categoryb.png)center top no-repeat ;
+    background-size: cover ;
+
+}
+.inner-category-banner{
+    text-align: center ;
+}
+.inner-category-banner h1{
+    font-size: 32px ;
+    font-weight: 600 ;
+    line-height: 1.7em ;
+}
+.inner-category-banner p{
+    font-size: 14px ;
+    line-height: 1.7em ;
+}
+.inner-category-banner .btn-info{
+    background:#FFD050;
+    color: #000;
+    padding: 10px 40px ;
+    text-transform: uppercase ;
+    font-weight: 500 ;
+    border: 1px solid #FFD050 ;
+    border-radius: 0px ;
+    font-size: 14px ;
+    margin: 10px 0px 0px 0px ;
+}
+.inner-category-banner .btn-info:hover{
+    background: transparent ;
+    border: 1px solid #FFD050 ;
+    color: #FFD050;
+    transition: 1s ;
+}
+
+.category-post{
+    width: 100% ;
+    padding: 80px 0px ;
+
+}
+.inner-post-category{
+   margin: 30px 0px ;
+    
+}
+.inner-post-category p{
+    font-size: 14px ;
+    line-height: 1.3em ;
+    letter-spacing: 1px ;
+    color: #592EA9;
+    font-weight: 600 ;
+}
+
+.inner-post-category h1{
+    font-size: 20px ;
+    line-height: 1.7em ;
+    font-weight: 600 ;
+}
+.inner-post-category h5{
+    font-size: 14px  ;
+    line-height: 1.7em ;
+
+}
+/* category section css end */
+
+/* autohr banner section strat */
+.blog-banner{
+    width: 100% ;
+    background: url(../images/author\ b.png) center top no-repeat ;
+    background-size: cover ;
+}
+
+
+/* autohr banner section end */
+
+/*contact us section start */
+    .contact-header{
+        width: 100% ;
+        padding: 60px 0px 5px 0px ;
+    }
+    .inner-contact-header{
+        text-align: center ;
+    }
+
+    .inner-contact-header h5{
+        font-size: 16px  ;
+        color: #000;
+        letter-spacing: 1px ;
+        font-weight: 600 ;
+        text-transform: uppercase ;
+    }
+    .inner-contact-header h1{
+        font-size: 32px ;
+        line-height: 1.7em ;
+        font-weight: 700 ;
+    }
+    .inner-contact-header p{
+        font-size: 14px ;
+        line-height: 1.7em ;
+        color: #6D6E76;
+    }
+    .contact-box{
+        width:100% ;
+        padding: 40px 0px ;
+    
+    }
+    .contact-box .inner-contact-box h5{
+        font-size: 14px ;
+        color: #BDABDD;
+    }
+    .contact-box .inner-contact-box h1{
+        font-size: 18px ;
+        color: #fff;
+    }
+    .contact-box .inner-contact-box p{
+        font-size: 14px ;
+        color: #BDABDD;
+    }
+    .purple{
+        padding: 30px 0px;
+        background: #592EA9;
+    }
+    .contact-us .form-control{
+        background: transparent ;
+        border-top: 1px solid #B6B7BA;
+        border-right: 1px solid #B6B7BA;
+        border-left: 1px solid #B6B7BA;
+        border-bottom: 1px solid #B6B7BA;
+        border-radius: 0px;
+        padding: 0px 0px 20px 0px;
+       
+    }
+    .contact-us input.form-control{
+        margin: 0px 0px 20px 0px ;
+        box-shadow: none ;
+        background: transparent ;
+        border-bottom: 1px solid #B6B7BA ;
+        border-top: 1px solid #B6B7BA ;
+        border-left: 1px solid #B6B7BA ;
+        border-right: 1px solid #B6B7BA ;
+        color: #000;
+    }
+    .contact-us .form-control::placeholder{
+        background: transparent ;
+        color: #000;
+        font-weight: 600 ;
+        padding: 5px ;
+        
+       
+    }
+     .contact-us textarea.form-control{
+        margin-top: 20px ;
+        background: transparent ;
+        border-top: 1px solid #B6B7BA;
+        border-right: 1px solid #B6B7BA;
+        border-left: 1px solid #B6B7BA;
+        border-bottom: 1px solid #B6B7BA;
+        border-radius: 0px;
+        box-shadow: none ;
+        color: #000;
+        padding: 5px;
+     }
+     .btn-danger{
+        width: 100%;
+        margin: 20px 0px 50px 0px;
+        color: #000 !important;
+        background: #FFD050 !important;
+        text-transform: uppercase ;
+        border: 1px solid #FFD050 !important;
+        font-size: 14px !important ;
+        border-radius: 0px !important ;
+        font-weight: 600 !important ;
+     }
+     .btn-danger:hover{
+        background: transparent !important ;
+        color: #FFD050 !important ;
+        border: 1px solid #FFD050 !important;
+        transition: 1s ;
+     }
+
+
+
+/*contact us section end */
+
+
+
+
+
+/* css media queary start */
+
+/* ****
+*   scren resulation : 279 to 379px 
+*   most of the folding mobile phone --- galaxy fold
+*
+*
+*/
+
+
+
+@media (min-width: 279px) and (max-width:319px) {
+    /* css start */
+    
+    
+    
+    /* css end */
+    
+    
+    }
+    /* ****
+    *   scren resulation : 320 to 480px 
+    *   most of the mobile phone 
+    *
+    *
+    */
+    
+    
+    
+    @media (min-width: 320px) and (max-width:480px) {
+    /* css start */
+    .header .navbar-toggler{
+        background:#FFD050 ;
+        border-radius: 0px ;
+    }
+    .header .navbar-toggler .fa-bars{
+        color: #000;
+    }
+    .header .btn-info {
+        width: 50%;
+    }
+    .banner {
+        padding: 30px 0px;
+        }
+    .banner h4 {
+         font-size: 14px;
+         }
+     .banner h1 {
+        font-size: 21px;
+     }
+     .feature {
+        padding: 30px 0px;
+    }
+    .feature h1 {
+        font-size: 21px;
+    }
+    .feature .btn-info {
+        margin: 15px 0px 40px 0px;
+    }
+    .mission .inner-mission {
+        margin: 42px 0px;
+    }
+    .mission .inner-mission h1 {
+        font-size: 21px;
+        margin: 10px 0px;
+    }
+    .mission .inner-mission p {
+        font-size: 12px;
+    }
+    .mission .inner-mission {
+        margin: 30px 0px;
+    }
+    .category{
+        padding: 30px 0px ;
+    }
+    .category h1 {
+        font-size: 21px;
+        margin: 0px 0px 26px 0px;
+    }
+    .category .inner-category {
+        margin: 0px 0px 20px 0px;
+    }
+    .discover {
+        padding: 30px 0px;
+    }
+    .discover .inner-discover h1 {
+        font-size: 21px;
+        margin: 10px 0px;
+    }
+    .discover .inner-discover .btn-info {
+        margin: 0px 0px 0px 0px;
+    }
+    .authors {
+        padding: 30px 0px;
+    }
+    .authors h1 {
+        font-size: 21px;
+        margin: 0px 0px 20px 0px;
+    }
+    img, svg {
+        vertical-align: middle;
+        padding: 0px 0px 20px;
+    }
+    .list-logo {
+        padding: 10px 0px 30px 0px;
+    }
+    .testimonial h5 {
+        margin: 30px 0px 0px 0px;
+    }
+
+    .testimonial h3 {
+        font-size: 16px;
+        margin: 30px 0px 0px 0px;
+    }
+    .testimonial h1 {
+        margin: 10px 0px;
+        font-size: 21px;
+    }
+    .testimonial h3 {
+        font-size: 16px;
+        margin: 10px 0px 0px 0px;
+    }
+    .story {
+        padding: 30px 0px;
+    }
+    .story h1 {
+        font-size: 21px;
+    }
+    .story .btn-info {
+        margin: 0px 0px 0px 0px;
+    }
+    .footer {
+        padding: 30px;
+    }
+    .footer ul li a {
+        font-size: 12px;
+        margin: 0px 0px 0px 10px;
+        font-weight: 600;
+        text-transform: uppercase;
+    }
+
+    .footer .inner-subscribe h4 {
+        font-size: 11px;
+    }
+    .footer .backround {
+        padding: 25px;
+        margin: 50px 0px;
+    }
+    .footer .inner-subscribe .btn-info {
+        padding: 7px 20px;
+        margin: 20px 0px 0px 50px;
+      
+    }
+    .footer p {
+        font-size: 12px;
+    }
+    .footer .inner-social {
+        text-align: center;
+    }
+    .blog-banner {
+        padding: 30px 0px;
+    }
+    .blog-banner h1 {
+        font-size: 21px;
+        margin: 10px 0px;
+    }
+    .img-fluid {
+        margin: 30px 0px 0px 0px;
+    }
+    .post {
+        padding: 30px 0px;
+    }
+    .post h1 {
+        font-size: 21px;
+        margin: 0px 0px 0px 0px;
+    }
+    .post .inner-post {
+        margin: 30px 0px;
+    }
+    .post .inner-post h1 {
+        font-size: 18px;
+        margin: 10px 0px;
+    }
+    .about-banner {
+        width: 100%;
+        padding: 30px 0px;
+    }
+    .inner-about-banner h1 {
+        font-size: 21px;
+    }
+    .blog-about {
+        padding: 30px 0px;
+    }
+    .inner-blog-about {
+        margin: 30px 0px 0px 0px;
+        padding: 20px;
+    }
+    .inner-blog-about h1 {
+        font-size: 21px;
+    }
+    .about-mission {
+        padding: 40px 0px;
+    }
+    .about-team {
+        width: 100%;
+        padding: 30px 0px;
+    }
+    .category-banner {  
+        padding: 30px 0px;
+    }
+    .inner-category-banner p {
+        font-size: 13px;
+    }
+    .inner-category-banner h1 {
+        font-size: 21px;
+    }
+    .category-post {
+        padding: 30px 0px;
+    }
+    .img-fluid {
+        margin: auto;
+    }
+    .contact-header {
+        padding: 30px 0px 5px 0px;
+    }
+    .inner-contact-header h1 {
+        font-size: 21px;
+    }
+    .contact-box {
+        width: 100%;
+        padding: 30px 0px;
+    }
+
+
+     /* css end */  
+    }
+    
+    
+    /* ****
+    *   scren resulation : 320 to 480px 
+    *   most of the mobile phone and low resulation tab
+    *
+    *
+    */
+    
+    
+    
+    @media (min-width: 481px) and (max-width:767px) {
+        /* css start */
+        .header .navbar-toggler{
+            background:#FFD050 ;
+            border-radius: 0px ;
+        }
+        .header .navbar-toggler .fa-bars{
+            color: #000;
+        }
+        .header .btn-info {
+            width: 50%;
+        }
+        .banner {
+            padding: 40px 0px;
+            }
+        .banner h4 {
+             font-size: 14px;
+             }
+         .banner h1 {
+            font-size: 22px;
+         }
+         .feature {
+            padding: 40px 0px;
+        }
+        .feature h1 {
+            font-size: 22px;
+        }
+        .feature .btn-info {
+            margin: 20px 0px 45px 0px;
+        }
+        .mission .inner-mission {
+            margin: 47px 0px;
+        }
+        .mission .inner-mission h1 {
+            font-size: 22px;
+            margin: 15px 0px;
+        }
+        .mission .inner-mission p {
+            font-size: 13px;
+        }
+        .mission .inner-mission {
+            margin: 40px 0px;
+        }
+        .category{
+            padding: 40px 0px ;
+        }
+        .category h1 {
+            font-size: 22px;
+            margin: 0px 0px 31px 0px;
+        }
+        .category .inner-category {
+            margin: 0px 0px 25px 0px;
+        }
+        .discover {
+            padding: 40px 0px;
+        }
+        .discover .inner-discover h1 {
+            font-size: 22px;
+            margin: 15px 0px;
+        }
+        .discover .inner-discover .btn-info {
+            margin: 0px 0px 0px 0px;
+        }
+        .authors {
+            padding: 40px 0px;
+        }
+        .authors h1 {
+            font-size: 22px;
+            margin: 0px 0px 25px 0px;
+        }
+        img, svg {
+            vertical-align: middle;
+            padding: 0px 0px 25px;
+        }
+        .list-logo {
+            padding: 15px 0px 35px 0px;
+        }
+        .testimonial h5 {
+            margin: 40px 0px 0px 0px;
+        }
+    
+        .testimonial h3 {
+            font-size: 17px;
+            margin: 35px 0px 0px 0px;
+        }
+        .testimonial h1 {
+            margin: 15px 0px;
+            font-size: 22px;
+        }
+        .testimonial h3 {
+            font-size: 17px;
+            margin: 15px 0px 0px 0px;
+        }
+        .story {
+            padding: 40px 0px;
+        }
+        .story h1 {
+            font-size: 22px;
+        }
+        .story .btn-info {
+            margin: 0px 0px 0px 0px;
+        }
+        .footer {
+            padding: 40px;
+        }
+        .footer ul li a {
+            font-size: 13px;
+            margin: 0px 0px 0px 15px;
+            font-weight: 600;
+            text-transform: uppercase;
+        }
+    
+        .footer .inner-subscribe h4 {
+            font-size: 12px;
+        }
+        .footer .backround {
+            padding: 30px;
+            margin: 55px 0px;
+        }
+        .footer .inner-subscribe .btn-info {
+            padding: 10px 25px;
+            margin: 25px 0px 0px 55px;
+          
+        }
+        .footer p {
+            font-size: 13px;
+        }
+        .footer .inner-social {
+            text-align: center;
+        }
+        .blog-banner {
+            padding: 40px 0px;
+        }
+        .blog-banner h1 {
+            font-size: 23px;
+            margin: 15px 0px;
+        }
+        .img-fluid {
+            margin: 35px 0px 0px 0px;
+        }
+        .post {
+            padding: 35px 0px;
+        }
+        .post h1 {
+            font-size: 22px;
+            margin: 0px 0px 0px 0px;
+        }
+        .post .inner-post {
+            margin: 35px 0px;
+        }
+        .post .inner-post h1 {
+            font-size: 19px;
+            margin: 15px 0px;
+        }
+        .about-banner {
+            width: 100%;
+            padding: 40px 0px;
+        }
+        .inner-about-banner h1 {
+            font-size: 22px;
+        }
+        .blog-about {
+            padding: 40px 0px;
+        }
+        .inner-blog-about {
+            margin: 35px 0px 0px 0px;
+            padding: 25px;
+        }
+        .inner-blog-about h1 {
+            font-size: 22px;
+        }
+        .about-mission {
+            padding: 40px 0px;
+        }
+        .about-team {
+            width: 100%;
+            padding: 35px 0px;
+        }
+        .category-banner {  
+            padding: 40px 0px;
+        }
+        .inner-category-banner p {
+            font-size: 14px;
+        }
+        .inner-category-banner h1 {
+            font-size: 22px;
+        }
+        .category-post {
+            padding: 40px 0px;
+        }
+        .img-fluid {
+            margin: auto;
+        }
+        .contact-header {
+            padding: 40px 0px 5px 0px;
+        }
+        .inner-contact-header h1 {
+            font-size: 20px;
+        }
+        .contact-box {
+            width: 100%;
+            padding: 35px 0px;
+        }
+
+        /* css end */
+        
+    }
+    
+    
+
+    /* ****
+    *   scren resulation : 768 to 1024px 
+    *   most of the tablates notbook i pads
+    *
+    *
+    */
+    
+    
+    
+    @media (min-width: 768px) and (max-width:1024px) {
+        /* css start */
+            /* css end */
+            .header .navbar-toggler{
+                background:#FFD050 ;
+                border-radius: 0px ;
+            }
+            .header .navbar-toggler .fa-bars{
+                color: #000;
+            }
+            .header .btn-info {
+                width: 50%;
+            }
+
+            .banner {
+                padding: 50px 0px;
+                }
+            .banner h4 {
+                 font-size: 15px;
+                 }
+             .banner h1 {
+                font-size: 24px;
+             }
+             .feature {
+                padding: 50px 0px;
+            }
+            .feature h1 {
+                font-size: 24px;
+            }
+            .feature .btn-info {
+                margin: 30px 0px 55px 0px;
+            }
+            .mission .inner-mission {
+                margin: 57px 0px;
+            }
+            .mission .inner-mission h1 {
+                font-size: 24px;
+                margin: 25px 0px;
+            }
+            .mission .inner-mission p {
+                font-size: 14px;
+            }
+            .mission .inner-mission {
+                margin: 50px 0px;
+            }
+            .category{
+                padding: 50px 0px ;
+            }
+            .category h1 {
+                font-size: 24px;
+                margin: 0px 0px 41px 0px;
+            }
+            .category .inner-category {
+                margin: 0px 0px 35px 0px;
+            }
+            .discover {
+                padding: 50px 0px;
+            }
+            .discover .inner-discover h1 {
+                font-size: 24px;
+                margin: 25px 0px;
+            }
+            .discover .inner-discover .btn-info {
+                margin: 0px 0px 0px 0px;
+            }
+            .authors {
+                padding: 50px 0px;
+            }
+            .authors h1 {
+                font-size: 24px;
+                margin: 0px 0px 25px 0px;
+            }
+            img, svg {
+                vertical-align: middle;
+                padding: 0px 0px 35px;
+            }
+            .list-logo {
+                padding: 25px 0px 45px 0px;
+            }
+            .testimonial h5 {
+                margin: 50px 0px 0px 0px;
+            }
+        
+            .testimonial h3 {
+                font-size: 19px;
+                margin: 45px 0px 0px 0px;
+            }
+            .testimonial h1 {
+                margin: 25px 0px;
+                font-size: 24px;
+            }
+            .testimonial h3 {
+                font-size: 18px;
+                margin: 25px 0px 0px 0px;
+            }
+            .story {
+                padding: 50px 0px;
+            }
+            .story h1 {
+                font-size: 24px;
+            }
+            .story .btn-info {
+                margin: 0px 0px 0px 0px;
+            }
+            .footer {
+                padding: 50px;
+            }
+            .footer ul li a {
+                font-size: 14px;
+                margin: 0px 0px 0px 25px;
+                font-weight: 600;
+                text-transform: uppercase;
+            }
+        
+            .footer .inner-subscribe h4 {
+                font-size: 14px;
+            }
+            .footer .backround {
+                padding: 40px;
+                margin: 65px 0px;
+            }
+            .footer .inner-subscribe .btn-info {
+                padding: 20px 35px;
+                margin: 35px 0px 0px 65px;
+              
+            }
+            .footer p {
+                font-size: 14px;
+            }
+            .footer .inner-social {
+                text-align: center;
+            }
+            .blog-banner {
+                padding: 50px 0px;
+            }
+            .blog-banner h1 {
+                font-size: 25px;
+                margin: 25px 0px;
+            }
+            .img-fluid {
+                margin: 45px 0px 0px 0px;
+            }
+            .post {
+                padding: 45px 0px;
+            }
+            .post h1 {
+                font-size: 24px;
+                margin: 0px 0px 0px 0px;
+            }
+            .post .inner-post {
+                margin: 45px 0px;
+            }
+            .post .inner-post h1 {
+                font-size: 21px;
+                margin: 25px 0px;
+            }
+            .about-banner {
+                width: 100%;
+                padding: 50px 0px;
+            }
+            .inner-about-banner h1 {
+                font-size: 24px;
+            }
+            .blog-about {
+                padding: 50px 0px;
+            }
+            .inner-blog-about {
+                margin: 45px 0px 0px 0px;
+                padding: 35px;
+            }
+            .inner-blog-about h1 {
+                font-size: 24px;
+            }
+            .about-mission {
+                padding: 50px 0px;
+            }
+            .about-team {
+                width: 100%;
+                padding: 45px 0px;
+            }
+            .category-banner {  
+                padding: 50px 0px;
+            }
+            .inner-category-banner p {
+                font-size: 15px;
+            }
+            .inner-category-banner h1 {
+                font-size: 24px;
+            }
+            .category-post {
+                padding: 50px 0px;
+            }
+            .img-fluid {
+                margin: auto;
+            }
+            .contact-header {
+                padding: 50px 0px 10px 0px;
+            }
+            .inner-contact-header h1 {
+                font-size: 24px;
+            }
+            .contact-box {
+                width: 100%;
+                padding: 45px 0px;
+            }
+    
+            /* css end */
+            
+        }
+        
+            
+        }
+        
